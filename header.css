@@ -1,0 +1,144 @@
+body {
+  max-width: 1920px;
+}
+.header {
+  /* done */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Freehand", cursive;
+}
+.logo {
+  position: relative;
+  margin-left: 30px;
+}
+.scissors {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -15px;
+  width: 80px;
+  height: 80px;
+}
+.logo1 {
+  position: absolute;
+  width: 91px;
+  height: 53px;
+  margin-left: 60px;
+  margin-top: 15px;
+  font-family: "Catamaran";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #99baed;
+}
+.menu {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  column-gap: 35px;
+
+  max-width: 650px;
+  font-family: "Catamaran";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.home_1 {
+  width: 93px;
+  height: 138px;
+  margin-left: -115px;
+  background: #a3c1ef;
+  border-radius: 5px;
+  z-index: 0;
+}
+.home {
+  width: 65px;
+  height: 33px;
+  margin-top: 15px;
+  margin-left: 10px;
+  z-index: 1;
+}
+.history {
+  width: 76px;
+  height: 33px;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.service {
+  width: 76px;
+  height: 33px;
+  margin-top: 20px;
+}
+.gallery {
+  width: 103px;
+  height: 33px;
+  margin-top: 20px;
+}
+.button_right {
+  display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 150px;
+  column-gap: 35px;
+}
+.button {
+  width: 245px;
+  height: 76px;
+  margin-right: -200px;
+  color: #ffffff;
+  background: #99baed;
+  border-radius: 20px;
+  font-family: "Catamaran";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  z-index: 1;
+}
+.up_button_shadow {
+  width: 188px;
+  height: 76px;
+
+  background: rgba(153, 186, 237, 0.5);
+  filter: blur(25px);
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.v1 {
+  margin-right: -55px;
+  margin-top: -20px;
+  opacity: 0.4;
+}
+.v2 {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.bang {
+  margin-left: -50px;
+  z-index: 0;
+}
+.bang1 {
+  box-sizing: border-box;
+  margin-right: -5px;
+
+  background: #ff5050;
+  border: 2px solid #ff5050;
+  border-radius: 50%;
+  z-index: 1;
+  height: 15px;
+  width: 15px;
+}
+/*.bang2 {
+  margin-left: -5px;
+  margin-top: 20px;
+}*/
